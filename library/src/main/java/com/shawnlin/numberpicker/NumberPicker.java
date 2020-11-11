@@ -1595,6 +1595,14 @@ public class NumberPicker extends LinearLayout {
     }
 
     /**
+     * Returns the state of the scroll
+     * @return The state
+     */
+    public int getScrollState() {
+        return mScrollState;
+    }
+
+    /**
      * Returns the min value of the picker.
      *
      * @return The min value
